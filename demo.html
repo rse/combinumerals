@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link rel="stylesheet" type="text/css" href="CombiNumeralsLtd.css"/>
+    <link rel="stylesheet" type="text/css" href="demo.css"/>
+    <script type="text/javascript" src="jquery.js"></script>
+  </head>
+  <body>
+    <div class="bg cn-42" id="bg1"></div>
+    <div class="bg cn-7"  id="bg2"></div>
+
+    <h1>FontSite CombiNumerals Ltd</h1>
+
+    Welcome to <i>Ralf S. Engelschall</i>'s small kit for using <i>Sean Cavanaugh</i>'s
+    awesome font <a href="http://www.fontsquirrel.com/fonts/CombiNumerals-Ltd">CombiNumerals Ltd</a> 
+    from <a href="http://www.fontsite.com/">FontSite</a> on the web to conveniently render circled numbers
+    (in the range 0-99) with the help of a CSS content generation approach. This is especially useful to annotate 
+    lines in code blocks and then reference those lines from within the description text.
+
+    <p/>
+    Render manually:<br/>
+    <code>&lt;i class="cn-raw"&gt;<i>4@</i>&lt;/&gt;</code>
+
+    <p/>
+    Render regular circled number N with content-generation:<br/>
+    <code>&lt;i class="cn-<i>N</i>"/&gt;</code>
+    <p/>
+    Render inverse circled number N with content-generation:<br/>
+    <code>&lt;i class="cn-<i>N</i>-i"/&gt;</code>
+
+    <p/>
+    <div>
+
+        <div class="sample1">
+            <div class="header">Large Preview:</div>
+            <i class="cn-4"></i>
+            <i class="cn-2"></i>
+            <div class="cn-raw" style="color: red;">4 @</div>
+            <i class="cn-42"></i>
+        </div>
+
+        <div class="sample2">
+            <div class="header">Manual Usage (via raw character codes):</div>
+            <table>
+               <tr>
+                  <td class="cn-raw">
+                    pqwertyuio<br/>
+                    
+                    asdfghjkl;&#x2473;<br/>
+
+                    0123456789
+
+                    )!@#$%^&amp;*(<br/>
+                  </td>
+                  <td class="cn-raw">
+                    &#x24FF;&#x278A;&#x278B;&#x278C;&#x278D;&#x278E;&#x278F;&#x2790;&#x2791;&#x2792;<br/>
+
+                    &#x2793;&#x24EB;&#x24EC;&#x24ED;&#x24EE;&#x24EF;&#x24F0;&#x24F1;&#x24F2;&#x24F3;&#x24F4;<br/>
+
+                    &#xE00A;&#xE00B;&#xE00C;&#xE00D;&#xE00E;&#xE00F;&#xE010;&#xE011;&#xE012;&#xE013;
+
+                    &#xE01E;&#xE01F;&#xE020;&#xE021;&#xE022;&#xE023;&#xE024;&#xE025;&#xE026;&#xE027;
+                  </td>
+               </tr>
+            </table>
+        </div>
+
+        <div class="sample3">
+            <div class="header">Automatic Usage (via CSS content generation):</div>
+            <table id="gen">
+               <tr>
+                  <td class="n"></td>
+                  <td class="i"></td>
+               </tr>
+            </table>
+            <script type="text/javascript">
+                var html = "";
+                for (var i = 0; i <= 9; i++) {
+                    for (var j = 0; j <= 9; j++)
+                        html += "<span class=\"cn-" + (10*i+j) + "\"></span>";
+                    html += "<br/>";
+                }
+                $("#gen td.n").html(html);
+                html = "";
+                for (var i = 0; i <= 9; i++) {
+                    for (var j = 0; j <= 9; j++)
+                        html += "<span class=\"cn-" + (10*i+j) + "-i\"></span>";
+                    html += "<br/>";
+                }
+                $("#gen td.i").html(html);
+            </script>
+        </div>
+        <div class="sample4">
+           <div class="header">List Styling (via CSS content generation):</div>
+
+           Lorem ipsum dolor sit amet <i class="cn-42" style="color: red;"></i>, consetetur sadipscing
+           elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+           aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+           dolores et ea rebum. 
+           <p/>
+           <ul class="cn">
+              <li class="cn-1">
+                 Lorem ipsum dolor sit amet, consetetur sadipscing
+                 elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                 aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+                 dolores et ea rebum. 
+              </li>
+              <li class="cn-42">
+                 Stet clita kasd gubergren, no sea takimata sanctus
+                 est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+                 sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+                 dolore magna aliquyam erat, sed diam voluptua. 
+              </li>
+              <li class="cn-42-i">
+                At vero eos et accusam
+                et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+                sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+              </li>
+           </ul>
+        </div>
+    </div>
+  </body>
+</html>

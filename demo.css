@@ -1,0 +1,87 @@
+
+body {
+    font-family:    "Helvetica", sans-serif;
+    font-size:      12pt;
+    margin-left:    50px;
+    width:          700px;
+}
+
+div.header {
+    font-size:      14pt;
+    margin-top:     6px;
+    margin-bottom:  6px;
+    color:          #3366aa;
+}
+
+table {
+    width:          100%;
+    border-collapse: collapse;
+}
+table tr td {
+    width:          48%;
+}
+
+h1 {
+    color:          #3366aa;
+}
+
+a {
+    color:          #3366aa;
+    text-decoration: none;
+}
+a:visited {
+    color:          #3366aa;
+}
+
+div.bg {
+    font-size:      400pt;
+    color:          #f5f5f5;
+    z-index:        -10;
+    position:       absolute;
+}
+
+div#bg1 { 
+    left:           450px; 
+    top:            -140px;
+}
+
+div#bg2 { 
+    left:           -100px; 
+    top:            100px;
+}
+
+div.sample1 {
+    border:         1px solid #cccccc;
+    padding:        10px;
+    margin-bottom:  4px;
+    font-size:      80pt;
+}
+code {
+    font-size:      16pt;
+}
+
+div.sample2 {
+    border:         1px solid #cccccc;
+    padding:        10px;
+    margin-bottom:  4px;
+    font-size:      24pt;
+}
+div.sample2 table td {
+    font-size: 24pt;
+}
+
+div.sample3 {
+    border:         1px solid #cccccc;
+    padding:        10px;
+    margin-bottom:  4px;
+}
+div.sample3 table td {
+    font-size: 24pt;
+}
+
+div.sample4 {
+    border:         1px solid #cccccc;
+    padding:        10px;
+    margin-bottom:  4px;
+}
+

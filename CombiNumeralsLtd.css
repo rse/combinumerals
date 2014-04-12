@@ -1,0 +1,273 @@
+/*
+**  CombiNumeralsLtd.css -- CSS integration for font CombiNumerals Ltd
+**  Copyright (c) 2014 Ralf S. Engelschall <rse@engelschall.com>
+**
+**  Permission is hereby granted, free of charge, to any person obtaining
+**  a copy of this software and associated documentation files (the
+**  "Software"), to deal in the Software without restriction, including
+**  without limitation the rights to use, copy, modify, merge, publish,
+**  distribute, sublicense, and/or sell copies of the Software, and to
+**  permit persons to whom the Software is furnished to do so, subject to
+**  the following conditions:
+**
+**  The above copyright notice and this permission notice shall be included
+**  in all copies or substantial portions of the Software.
+**
+**  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+**  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+**  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+**  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+**  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+**  TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+**  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/*  font declaration  */
+@font-face {
+    font-family:  "CombiNumerals Ltd";
+    src:          url("CombiNumeralsLtd.eot");
+    src:          local("*"),
+                  url("CombiNumeralsLtd.eot?#iefix") format("embedded-opentype"),
+                  url("CombiNumeralsLtd.woff") format("woff"),
+                  url("CombiNumeralsLtd.ttf") format("truetype"),
+                  url("CombiNumeralsLtd.svgz#CombiNumeralsLtd") format("svg");
+    font-style:   normal;
+    font-weight:  normal;
+    font-stretch: normal;
+    font-variant: normal;
+}
+
+/*  general styling for correctly using the font  */
+.cn-raw,
+*[class^='cn-']:before,
+*[class*=' cn-']:before {
+    font-family: "CombiNumerals Ltd";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*  content generation for the individual numbers (single glyphs)  */
+.cn-0:before  { content: "p"; }
+.cn-1:before  { content: "q"; }
+.cn-2:before  { content: "w"; }
+.cn-3:before  { content: "e"; }
+.cn-4:before  { content: "r"; }
+.cn-5:before  { content: "t"; }
+.cn-6:before  { content: "y"; }
+.cn-7:before  { content: "u"; }
+.cn-8:before  { content: "i"; }
+.cn-9:before  { content: "o"; }
+.cn-10:before { content: "a"; }
+.cn-11:before { content: "s"; }
+.cn-12:before { content: "d"; }
+.cn-13:before { content: "f"; }
+.cn-14:before { content: "g"; }
+.cn-15:before { content: "h"; }
+.cn-16:before { content: "j"; }
+.cn-17:before { content: "k"; }
+.cn-18:before { content: "l"; }
+.cn-19:before { content: ";"; }
+.cn-20:before { content: "\2473"; }
+
+/*  content generation for the individual numbers (glyphs pairs)  */
+.cn-21:before { content: "2!"; }
+.cn-22:before { content: "2@"; }
+.cn-23:before { content: "2#"; }
+.cn-24:before { content: "2$"; }
+.cn-25:before { content: "2%"; }
+.cn-26:before { content: "2^"; }
+.cn-27:before { content: "2&"; }
+.cn-28:before { content: "2*"; }
+.cn-29:before { content: "2("; }
+.cn-30:before { content: "3)"; }
+.cn-31:before { content: "3!"; }
+.cn-32:before { content: "3@"; }
+.cn-33:before { content: "3#"; }
+.cn-34:before { content: "3$"; }
+.cn-35:before { content: "3%"; }
+.cn-36:before { content: "3^"; }
+.cn-37:before { content: "3&"; }
+.cn-38:before { content: "3*"; }
+.cn-39:before { content: "3("; }
+.cn-40:before { content: "4)"; }
+.cn-41:before { content: "4!"; }
+.cn-42:before { content: "4@"; }
+.cn-43:before { content: "4#"; }
+.cn-44:before { content: "4$"; }
+.cn-45:before { content: "4%"; }
+.cn-46:before { content: "4^"; }
+.cn-47:before { content: "4&"; }
+.cn-48:before { content: "4*"; }
+.cn-49:before { content: "4("; }
+.cn-50:before { content: "5)"; }
+.cn-51:before { content: "5!"; }
+.cn-52:before { content: "5@"; }
+.cn-53:before { content: "5#"; }
+.cn-54:before { content: "5$"; }
+.cn-55:before { content: "5%"; }
+.cn-56:before { content: "5^"; }
+.cn-57:before { content: "5&"; }
+.cn-58:before { content: "5*"; }
+.cn-59:before { content: "5("; }
+.cn-60:before { content: "6)"; }
+.cn-61:before { content: "6!"; }
+.cn-62:before { content: "6@"; }
+.cn-63:before { content: "6#"; }
+.cn-64:before { content: "6$"; }
+.cn-65:before { content: "6%"; }
+.cn-66:before { content: "6^"; }
+.cn-67:before { content: "6&"; }
+.cn-68:before { content: "6*"; }
+.cn-69:before { content: "6("; }
+.cn-70:before { content: "7)"; }
+.cn-71:before { content: "7!"; }
+.cn-72:before { content: "7@"; }
+.cn-73:before { content: "7#"; }
+.cn-74:before { content: "7$"; }
+.cn-75:before { content: "7%"; }
+.cn-76:before { content: "7^"; }
+.cn-77:before { content: "7&"; }
+.cn-78:before { content: "7*"; }
+.cn-79:before { content: "7("; }
+.cn-80:before { content: "8)"; }
+.cn-81:before { content: "8!"; }
+.cn-82:before { content: "8@"; }
+.cn-83:before { content: "8#"; }
+.cn-84:before { content: "8$"; }
+.cn-85:before { content: "8%"; }
+.cn-86:before { content: "8^"; }
+.cn-87:before { content: "8&"; }
+.cn-88:before { content: "8*"; }
+.cn-89:before { content: "8("; }
+.cn-90:before { content: "9)"; }
+.cn-91:before { content: "9!"; }
+.cn-92:before { content: "9@"; }
+.cn-93:before { content: "9#"; }
+.cn-94:before { content: "9$"; }
+.cn-95:before { content: "9%"; }
+.cn-96:before { content: "9^"; }
+.cn-97:before { content: "9&"; }
+.cn-98:before { content: "9*"; }
+.cn-99:before { content: "9("; }
+
+/*  content generation for the individual INVERSE numbers (single glyphs)  */
+.cn-0-i:before  { content: "\24FF"; }
+.cn-1-i:before  { content: "\278A"; }
+.cn-2-i:before  { content: "\278B"; }
+.cn-3-i:before  { content: "\278C"; }
+.cn-4-i:before  { content: "\278D"; }
+.cn-5-i:before  { content: "\278E"; }
+.cn-6-i:before  { content: "\278F"; }
+.cn-7-i:before  { content: "\2790"; }
+.cn-8-i:before  { content: "\2791"; }
+.cn-9-i:before  { content: "\2792"; }
+.cn-10-i:before { content: "\2793"; }
+.cn-11-i:before { content: "\24EB"; }
+.cn-12-i:before { content: "\24EC"; }
+.cn-13-i:before { content: "\24ED"; }
+.cn-14-i:before { content: "\24EE"; }
+.cn-15-i:before { content: "\24EF"; }
+.cn-16-i:before { content: "\24F0"; }
+.cn-17-i:before { content: "\24F1"; }
+.cn-18-i:before { content: "\24F2"; }
+.cn-19-i:before { content: "\24F3"; }
+.cn-20-i:before { content: "\24F4"; }
+
+/*  content generation for the individual INVERSE numbers (glyphs pairs)  */
+.cn-21-i:before { content: "\E00C\E01F"; }
+.cn-22-i:before { content: "\E00C\E020"; }
+.cn-23-i:before { content: "\E00C\E021"; }
+.cn-24-i:before { content: "\E00C\E022"; }
+.cn-25-i:before { content: "\E00C\E023"; }
+.cn-26-i:before { content: "\E00C\E024"; }
+.cn-27-i:before { content: "\E00C\E025"; }
+.cn-28-i:before { content: "\E00C\E026"; }
+.cn-29-i:before { content: "\E00C\E027"; }
+.cn-30-i:before { content: "\E00D\E01E"; }
+.cn-31-i:before { content: "\E00D\E01F"; }
+.cn-32-i:before { content: "\E00D\E020"; }
+.cn-33-i:before { content: "\E00D\E021"; }
+.cn-34-i:before { content: "\E00D\E022"; }
+.cn-35-i:before { content: "\E00D\E023"; }
+.cn-36-i:before { content: "\E00D\E024"; }
+.cn-37-i:before { content: "\E00D\E025"; }
+.cn-38-i:before { content: "\E00D\E026"; }
+.cn-39-i:before { content: "\E00D\E027"; }
+.cn-40-i:before { content: "\E00E\E01E"; }
+.cn-41-i:before { content: "\E00E\E01F"; }
+.cn-42-i:before { content: "\E00E\E020"; }
+.cn-43-i:before { content: "\E00E\E021"; }
+.cn-44-i:before { content: "\E00E\E022"; }
+.cn-45-i:before { content: "\E00E\E023"; }
+.cn-46-i:before { content: "\E00E\E024"; }
+.cn-47-i:before { content: "\E00E\E025"; }
+.cn-48-i:before { content: "\E00E\E026"; }
+.cn-49-i:before { content: "\E00E\E027"; }
+.cn-50-i:before { content: "\E00F\E01E"; }
+.cn-51-i:before { content: "\E00F\E01F"; }
+.cn-52-i:before { content: "\E00F\E020"; }
+.cn-53-i:before { content: "\E00F\E021"; }
+.cn-54-i:before { content: "\E00F\E022"; }
+.cn-55-i:before { content: "\E00F\E023"; }
+.cn-56-i:before { content: "\E00F\E024"; }
+.cn-57-i:before { content: "\E00F\E025"; }
+.cn-58-i:before { content: "\E00F\E026"; }
+.cn-59-i:before { content: "\E00F\E027"; }
+.cn-60-i:before { content: "\E010\E01E"; }
+.cn-61-i:before { content: "\E010\E01F"; }
+.cn-62-i:before { content: "\E010\E020"; }
+.cn-63-i:before { content: "\E010\E021"; }
+.cn-64-i:before { content: "\E010\E022"; }
+.cn-65-i:before { content: "\E010\E023"; }
+.cn-66-i:before { content: "\E010\E024"; }
+.cn-67-i:before { content: "\E010\E025"; }
+.cn-68-i:before { content: "\E010\E026"; }
+.cn-69-i:before { content: "\E010\E027"; }
+.cn-70-i:before { content: "\E011\E01E"; }
+.cn-71-i:before { content: "\E011\E01F"; }
+.cn-72-i:before { content: "\E011\E020"; }
+.cn-73-i:before { content: "\E011\E021"; }
+.cn-74-i:before { content: "\E011\E022"; }
+.cn-75-i:before { content: "\E011\E023"; }
+.cn-76-i:before { content: "\E011\E024"; }
+.cn-77-i:before { content: "\E011\E025"; }
+.cn-78-i:before { content: "\E011\E026"; }
+.cn-79-i:before { content: "\E011\E027"; }
+.cn-80-i:before { content: "\E012\E01E"; }
+.cn-81-i:before { content: "\E012\E01F"; }
+.cn-82-i:before { content: "\E012\E020"; }
+.cn-83-i:before { content: "\E012\E021"; }
+.cn-84-i:before { content: "\E012\E022"; }
+.cn-85-i:before { content: "\E012\E023"; }
+.cn-86-i:before { content: "\E012\E024"; }
+.cn-87-i:before { content: "\E012\E025"; }
+.cn-88-i:before { content: "\E012\E026"; }
+.cn-89-i:before { content: "\E012\E027"; }
+.cn-90-i:before { content: "\E013\E01E"; }
+.cn-91-i:before { content: "\E013\E01F"; }
+.cn-92-i:before { content: "\E013\E020"; }
+.cn-93-i:before { content: "\E013\E021"; }
+.cn-94-i:before { content: "\E013\E022"; }
+.cn-95-i:before { content: "\E013\E023"; }
+.cn-96-i:before { content: "\E013\E024"; }
+.cn-97-i:before { content: "\E013\E025"; }
+.cn-98-i:before { content: "\E013\E026"; }
+.cn-99-i:before { content: "\E013\E027"; }
+
+/*  styling for lists using the circled numbers as list item bullets  */
+ul.cn {
+    list-style-type: none;
+    position: relative;
+    margin-left: 0em;
+    padding-left: 3.0em;
+}
+li[class^='cn-']:before,
+li[class*=' cn-']:before {
+    position: absolute;
+    left: 1.5em;
+}
+

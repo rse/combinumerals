@@ -1,0 +1,8 @@
+Name:       CombiNumerals Ltd
+Homepage:   http://www.fontsquirrel.com/fonts/CombiNumerals-Ltd
+Download:   http://www.fontsquirrel.com/fonts/CombiNumerals-Ltd
+Version:    1.060 (2008)
+Publisher:  FontSite via FontSquirrel
+Designer:   Sean Cavanaugh
+Designed:   2001
+Derivation: none
