@@ -1,0 +1,20 @@
+{
+    "name":        "combinumerals",
+    "version":     "1.0.0",
+    "description": "Rendering circled numbers via font FontSite CombiNumerals Ltd",
+    "repository": {
+        "type": "git",
+        "url":  "https://github.com/rse/combinumerals.git"
+    },
+    "author": {
+        "name":  "Ralf S. Engelschall",
+        "email": "rse@engelschall.com",
+        "url":   "http://engelschall.com"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url":  "http://opensource.org/licenses/MIT"
+    }],
+    "homepage": "https://github.com/rse/combinumerals",
+    "bugs":     "https://github.com/rse/combinumerals/issues"
+}
