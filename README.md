@@ -15,6 +15,6 @@ NOTICE: This can be used for non-commercial and commercial Websites
 and PDFs, but because of license restrictions on CombiNumerals Ltd it
 unfortunately cannot be used for HTML5 Single-Page-Apps.
 
-See the included [demo.html](https://cdn.rawgit.com/rse/combinumerals/master/demo.html)
+See the included [demo.html](http://rawgit.com/rse/combinumerals/master/demo.html)
 for a small demonstration of CombiNumerals' possibilities.
 
